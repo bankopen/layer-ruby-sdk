@@ -1,10 +1,15 @@
 # Layer Payment SDK for Ruby On Rails
 
 1.Install NodeJs v12 or higher
+
 2.Use NodeJs command prompt to install rest
+
 3.Install Ruby - http://rubyinstaller.org/
+
 4.Install Rails - gem install rails
+
 5.Install Yarn - https://classic.yarnpkg.com/en/docs/install/#windows-stable
+
 6.Close and re-open command prompt. Go to location where you want to create project
 
 
@@ -23,10 +28,15 @@ https://errorsandfixes.bookmark.com/webpacker-configuration-file-not-found-webpa
 	> $ rails new ror_layerpayment
 
 2. Copy following files -
+
 	app\assets\images\logo.png
+	
 	app\controllers\test_controller.rb
+	
 	app\views\test\*
+	
 	config\routes.rb
+	
 	
 3. Open ror_layerpayment\app\controllers\test_controller.rb
 
