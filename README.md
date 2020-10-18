@@ -33,7 +33,7 @@ https://errorsandfixes.bookmark.com/webpacker-configuration-file-not-found-webpa
 	
 	app\controllers\test_controller.rb
 	
-	app\views\test\*
+	app\views\test\\*
 	
 	config\routes.rb
 	
@@ -52,16 +52,25 @@ https://errorsandfixes.bookmark.com/webpacker-configuration-file-not-found-webpa
 Manifest error: run below commands in app folder
 ------------------------------------------------
 rm -rf node_modules
+
 rails assets:clobber
+
 yarn
+
 rails webpacker:install
+
 rails assets:precompile
+
 ./node_modules/.bin/webpack
+
 
 
 --------------
 gemfile
 --------------
 gem 'faraday'
+
 bundle install
+
 bundle info faraday
+
