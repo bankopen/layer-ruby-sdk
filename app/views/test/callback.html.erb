@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Layer payment Ruby On Rails Kit</title>
+</head>
+<style type="text/css">
+	.main {
+		margin-left:30px;
+		font-family:Verdana, Geneva, sans-serif, serif;
+	}
+	.text {
+		float:left;
+		width:180px;
+	}
+	.dv {
+		margin-bottom:5px;
+	}
+</style>
+<body>
+<div class="main">
+	<div>
+    	<img src="<%=asset_path "logo.png"%>" />
+    </div>
+	<br />
+	<br />
+	<div class="dv">
+		<%= $error %>
+	</div>
+    <div class="dv">
+		<%= @status %>
+    </div>	
+</div>
+</body>
+</html>
