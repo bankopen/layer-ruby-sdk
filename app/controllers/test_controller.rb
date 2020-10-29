@@ -8,7 +8,13 @@ require 'json'
 #Custom configuration ror_layerpayment
 $BASE_URL_SANDBOX = 'https://sandbox-icp-api.bankopen.co'
 $BASE_URL_UAT = 'https://icp-api.bankopen.co'
+
+#for sandbox
 $remote_script='https://sandbox-payments.open.money/layer'
+
+#for live
+#$remote_script='https://payments.open.money/layer'
+
 $accesskey='ab484150-c760-11ea-8e37-372cadc23aea'
 $secretkey='ecee6e0aae6143214546c2425c3f03141271adc5'
 $environment='test'
